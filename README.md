@@ -31,9 +31,5 @@ Password Generator/: Contains files related to the Password Generator task.
 Rock-Paper-Scissors Games/: Contains files related to the Rock-Paper-Scissors Game task.
 Contact Book.py/: Contains files related to the Contact Book task.
 
-How to Use:
-Clone this repository to your local machine using git clone.
-Navigate to the directory of the task you are interested in.
-
-Feel free to explore each task and provide feedback. Thank you for visiting my CODSOFT repository!
+Feel free to explore each task and provide feedback. Thanks a ton for visiting my CODSOFT repository!
 
