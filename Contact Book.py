@@ -3,7 +3,7 @@
 import csv 
 import re #used for email validation
 
-names = []; phone_numbers = [];emails = [];addresses = []
+names = []; phone_numbers = []; emails = []; addresses = []
 
 # function to load data from csv file    
 def loadData():
