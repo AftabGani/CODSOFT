@@ -43,7 +43,7 @@ def saveData():
     except IOError as e:
         print(f"Error saving data: {e}")
 
-#function to add contact
+
 def addContact():
     name = input("Enter name: ")
     phone_number=input("Enter phone number:")
@@ -62,14 +62,11 @@ def addContact():
     emails.append(email)
     addresses.append(address)
     saveData()
-    print("\n Details have been successfully added...")
+    print("\nDetails have been successfully added...")
 
-#function to view contact list
 def viewContact():
     loadData()
-    if not names:
-        print("No contacts found.")
-    else:
+    if names:
         for i in range(len(names)):
             print('\nContact:',i+1)
             print("--------------------")
@@ -79,7 +76,6 @@ def viewContact():
             print("Address:",addresses[i])
             print("--------------------")
 
-#function to search a conatct based on name or phone number
 def searchContact():
     loadData()
     keyword = input("Enter the name or phone number to search: ")
